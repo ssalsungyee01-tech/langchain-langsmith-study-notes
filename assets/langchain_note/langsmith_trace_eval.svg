@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">LangSmith 관찰과 평가</title>
+  <desc id="desc">Trace, Run, Thread, Dataset, Evaluator, Experiment의 관계</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .title { font: 700 34px Arial, sans-serif; fill: #111827; }
+      .sub { font: 400 18px Arial, sans-serif; fill: #4b5563; }
+      .head { font: 700 24px Arial, sans-serif; fill: #111827; }
+      .txt { font: 400 17px Arial, sans-serif; fill: #374151; }
+      .box { fill: #fff; stroke: #334155; stroke-width: 2; rx: 16; }
+      .run { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; rx: 12; }
+      .eval { fill: #ecfccb; stroke: #4d7c0f; stroke-width: 2; rx: 12; }
+      .warn { fill: #fff7ed; stroke: #c2410c; stroke-width: 2; rx: 12; }
+      .arrow { stroke: #334155; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1280" height="720"/>
+  <text x="60" y="70" class="title">LangSmith는 '무슨 일이 있었는지'와 '좋아졌는지'를 나눠 보여준다</text>
+  <text x="60" y="105" class="sub">관찰은 문제 위치를 찾는 일이고, 평가는 개선 여부를 기준으로 확인하는 일이다.</text>
+
+  <rect x="65" y="170" width="520" height="360" class="box"/>
+  <text x="325" y="215" text-anchor="middle" class="head">관찰: Trace / Run / Thread</text>
+  <rect x="105" y="255" width="135" height="75" class="run"/>
+  <text x="172" y="292" text-anchor="middle" class="txt">Run 1</text>
+  <text x="172" y="315" text-anchor="middle" class="txt">프롬프트</text>
+  <rect x="275" y="255" width="135" height="75" class="run"/>
+  <text x="342" y="292" text-anchor="middle" class="txt">Run 2</text>
+  <text x="342" y="315" text-anchor="middle" class="txt">검색</text>
+  <rect x="445" y="255" width="105" height="75" class="run"/>
+  <text x="497" y="292" text-anchor="middle" class="txt">Run 3</text>
+  <text x="497" y="315" text-anchor="middle" class="txt">모델</text>
+  <rect x="135" y="385" width="380" height="85" class="warn"/>
+  <text x="325" y="420" text-anchor="middle" class="head">Trace</text>
+  <text x="325" y="450" text-anchor="middle" class="txt">사용자 요청 하나를 처리한 전체 기록</text>
+  <path d="M240 292 H275" class="arrow"/>
+  <path d="M410 292 H445" class="arrow"/>
+
+  <rect x="695" y="170" width="520" height="360" class="box"/>
+  <text x="955" y="215" text-anchor="middle" class="head">평가: Dataset / Evaluator / Experiment</text>
+  <rect x="735" y="255" width="140" height="85" class="eval"/>
+  <text x="805" y="292" text-anchor="middle" class="txt">Dataset</text>
+  <text x="805" y="317" text-anchor="middle" class="txt">문제 모음</text>
+  <rect x="920" y="255" width="140" height="85" class="eval"/>
+  <text x="990" y="292" text-anchor="middle" class="txt">Evaluator</text>
+  <text x="990" y="317" text-anchor="middle" class="txt">채점 기준</text>
+  <rect x="860" y="390" width="220" height="85" class="warn"/>
+  <text x="970" y="425" text-anchor="middle" class="txt">Experiment</text>
+  <text x="970" y="450" text-anchor="middle" class="txt">한 버전의 평가 결과</text>
+  <path d="M875 298 H920" class="arrow"/>
+  <path d="M990 340 C990 365 970 365 970 390" class="arrow"/>
+
+  <rect x="300" y="585" width="680" height="70" class="box"/>
+  <text x="640" y="627" text-anchor="middle" class="head">trace로 원인을 찾고, evaluation으로 개선을 확인한다</text>
+</svg>

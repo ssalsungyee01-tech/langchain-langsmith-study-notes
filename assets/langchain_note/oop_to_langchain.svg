@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">객체지향에서 LangChain 컴포넌트로</title>
+  <desc id="desc">클래스, 객체, 메서드 개념이 LangChain의 메시지, 도구, 문서, 상태 개념으로 이어지는 그림</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfaf5; }
+      .title { font: 700 34px Arial, sans-serif; fill: #1f2933; }
+      .subtitle { font: 400 18px Arial, sans-serif; fill: #4b5563; }
+      .head { font: 700 24px Arial, sans-serif; fill: #111827; }
+      .text { font: 400 18px Arial, sans-serif; fill: #374151; }
+      .card { fill: #fff; stroke: #273444; stroke-width: 2; rx: 18; }
+      .green { fill: #e8f7ef; stroke: #2f855a; }
+      .blue { fill: #e6f0ff; stroke: #2563eb; }
+      .line { stroke: #374151; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1280" height="720"/>
+  <text x="60" y="70" class="title">객체지향은 LangChain 문서를 읽기 위한 최소 문법이다</text>
+  <text x="60" y="105" class="subtitle">외우기보다 '역할을 가진 업무 카드'로 이해하면 된다.</text>
+
+  <rect x="80" y="165" width="310" height="390" class="card green"/>
+  <text x="235" y="210" text-anchor="middle" class="head">Python 기초 개념</text>
+  <text x="120" y="265" class="text">클래스 = 업무 양식/설계도</text>
+  <text x="120" y="315" class="text">객체 = 실제 업무 카드</text>
+  <text x="120" y="365" class="text">속성 = 카드에 적힌 정보</text>
+  <text x="120" y="415" class="text">메서드 = 카드가 할 수 있는 행동</text>
+  <text x="120" y="465" class="text">타입 힌트 = 값 모양 안내문</text>
+
+  <rect x="485" y="165" width="310" height="390" class="card"/>
+  <text x="640" y="210" text-anchor="middle" class="head">중간 다리</text>
+  <text x="525" y="270" class="text">데이터를 이름 붙여 묶기</text>
+  <text x="525" y="325" class="text">입력과 출력 모양 정하기</text>
+  <text x="525" y="380" class="text">역할별로 책임 나누기</text>
+  <text x="525" y="435" class="text">실행 흐름을 단계로 보기</text>
+  <text x="525" y="490" class="text">오류가 날 지점을 분리하기</text>
+
+  <rect x="890" y="165" width="310" height="390" class="card blue"/>
+  <text x="1045" y="210" text-anchor="middle" class="head">LangChain에서 만나는 말</text>
+  <text x="930" y="265" class="text">Message = 대화 카드</text>
+  <text x="930" y="315" class="text">Document = 문서 조각 카드</text>
+  <text x="930" y="365" class="text">Tool = 호출 가능한 업무 함수</text>
+  <text x="930" y="415" class="text">AgentState = 현재 업무 상태</text>
+  <text x="930" y="465" class="text">Schema = 출력 양식 약속</text>
+
+  <path d="M390 360 H485" class="line"/>
+  <path d="M795 360 H890" class="line"/>
+</svg>
