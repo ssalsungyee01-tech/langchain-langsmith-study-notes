@@ -1,6 +1,6 @@
 # LangChain-LangSmith 보충 학습 노트
 
-작성 기준일: 2026-06-17  
+작성 기준일: 2026-06-18  
 읽는 대상: Python 기초는 조금 있지만 클래스, 객체지향, DB, LangChain 용어가 아직 낯선 분  
 읽는 목적: 수업에서 특정 개념이 헷갈릴 때 원하는 구간만 골라 읽기
 
@@ -19,16 +19,17 @@
 ## 핵심 읽기 순서
 
 1. [전체 그림: AI에게 물어보기와 AI 앱 만들기는 다르다](랭체인_랭스미스_보충학습노트/01_전체_그림.md)
-2. [객체, 클래스, 스키마: LangChain 문서가 갑자기 어려워지는 이유](랭체인_랭스미스_보충학습노트/02_객체_클래스_스키마.md)
-3. [메시지와 프롬프트: 모델에게 일을 시키는 말의 구조](랭체인_랭스미스_보충학습노트/03_메시지와_프롬프트.md)
-4. [흐름, Chain, Runnable, Agent: LLM 앱은 단계로 움직인다](랭체인_랭스미스_보충학습노트/04_흐름_체인_에이전트.md)
-5. [Tool Calling: 모델이 함수와 API를 쓰게 하는 방식](랭체인_랭스미스_보충학습노트/05_Tool_Calling.md)
-6. [DB, DBMS, Vector DB, RAG: LangChain에서 DB는 어떻게 쓰일까](랭체인_랭스미스_보충학습노트/06_DB와_RAG.md)
-7. [Memory, Thread, State: 대화를 이어가는 법](랭체인_랭스미스_보충학습노트/07_Memory_Thread_State.md)
-8. [Structured Output: 앱이 읽을 수 있는 답을 받는 법](랭체인_랭스미스_보충학습노트/08_Structured_Output.md)
-9. [LangSmith Trace: 답이 틀린 원인을 찾는 법](랭체인_랭스미스_보충학습노트/09_LangSmith_Trace.md)
-10. [LangSmith Evaluation: 좋아졌는지 기준으로 확인하는 법](랭체인_랭스미스_보충학습노트/10_LangSmith_Evaluation.md)
-11. [업무 자동화 에이전트: 배운 개념이 합쳐지는 모습](랭체인_랭스미스_보충학습노트/11_업무_자동화_에이전트.md)
+2. [객체와 클래스: LangChain 문서가 갑자기 어려워지는 이유](랭체인_랭스미스_보충학습노트/02_객체_클래스_스키마.md)
+3. [스키마: 정보를 담기 위한 구조와 약속](랭체인_랭스미스_보충학습노트/02_스키마_정보를_담는_틀.md)
+4. [메시지와 프롬프트: 모델에게 일을 시키는 말의 구조](랭체인_랭스미스_보충학습노트/03_메시지와_프롬프트.md)
+5. [흐름, Chain, Runnable, Agent: LLM 앱은 단계로 움직인다](랭체인_랭스미스_보충학습노트/04_흐름_체인_에이전트.md)
+6. [Tool Calling: 모델이 함수와 API를 쓰게 하는 방식](랭체인_랭스미스_보충학습노트/05_Tool_Calling.md)
+7. [DB, DBMS, Vector DB, RAG: LangChain에서 DB는 어떻게 쓰일까](랭체인_랭스미스_보충학습노트/06_DB와_RAG.md)
+8. [Memory, Thread, State: 대화를 이어가는 법](랭체인_랭스미스_보충학습노트/07_Memory_Thread_State.md)
+9. [Structured Output: 앱이 읽을 수 있는 답을 받는 법](랭체인_랭스미스_보충학습노트/08_Structured_Output.md)
+10. [LangSmith Trace: 답이 틀린 원인을 찾는 법](랭체인_랭스미스_보충학습노트/09_LangSmith_Trace.md)
+11. [LangSmith Evaluation: 좋아졌는지 기준으로 확인하는 법](랭체인_랭스미스_보충학습노트/10_LangSmith_Evaluation.md)
+12. [업무 자동화 에이전트: 배운 개념이 합쳐지는 모습](랭체인_랭스미스_보충학습노트/11_업무_자동화_에이전트.md)
 
 ## 부록
 
