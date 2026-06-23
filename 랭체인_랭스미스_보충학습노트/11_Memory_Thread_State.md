@@ -1,4 +1,4 @@
-# Memory, Thread, State: 대화를 이어가는 법
+﻿# Memory, Thread, State: 대화를 이어가는 법
 
 AI가 이전 대화를 기억하는 것처럼 보일 때가 있습니다. 하지만 개발 관점에서는 모델이 스스로 모든 것을 기억한다고 보면 안 됩니다. 앱이 이전 메시지나 요약, 사용자 설정을 저장해두었다가 다음 모델 호출 때 다시 넣어주는 구조에 가깝습니다.
 
@@ -29,4 +29,4 @@ flowchart LR
 
 Memory는 모든 것을 기억하는 장치가 아닙니다. 필요한 것을 필요한 시점에 다시 꺼내 쓰기 위한 상태 관리입니다. 이 관점이 잡히면 "모델이 기억한다"와 "앱이 기억하게 만든다"를 구분할 수 있습니다.
 
-[이전 글](06_DB와_RAG.md) · [다음 글: Structured Output](08_Structured_Output.md)
+[이전 글](10_Vector_DB와_RAG.md) · [다음 글: Structured Output](12_Structured_Output.md)

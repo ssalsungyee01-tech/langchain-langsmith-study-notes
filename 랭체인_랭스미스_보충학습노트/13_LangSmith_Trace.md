@@ -1,4 +1,4 @@
-# LangSmith Trace: 답이 틀린 원인을 찾는 법
+﻿# LangSmith Trace: 답이 틀린 원인을 찾는 법
 
 LLM 앱이 이상한 답을 했을 때 "모델이 틀렸다"로 끝내면 고칠 수 없습니다. 실제로는 여러 단계 중 하나가 문제였을 수 있습니다. 질문 해석이 틀렸을 수도 있고, 검색된 문서가 엉뚱했을 수도 있고, 도구 입력값이 잘못됐을 수도 있고, 모델이 근거를 잘못 요약했을 수도 있습니다.
 
@@ -35,4 +35,4 @@ flowchart TB
 
 LangSmith를 쓰는 이유는 단순히 화면에서 결과를 예쁘게 보기 위해서가 아닙니다. 앱이 어떤 경로로 그 답에 도달했는지 보고, 고쳐야 할 지점을 찾기 위해서입니다.
 
-[이전 글](08_Structured_Output.md) · [다음 글: LangSmith Evaluation](10_LangSmith_Evaluation.md)
+[이전 글](12_Structured_Output.md) · [다음 글: LangSmith Evaluation](14_LangSmith_Evaluation.md)

@@ -1,4 +1,4 @@
-# Structured Output: 앱이 읽을 수 있는 답을 받는 법
+﻿# Structured Output: 앱이 읽을 수 있는 답을 받는 법
 
 모델은 자연어를 잘 만듭니다. 하지만 앱 입장에서는 자연어만으로는 곤란한 경우가 많습니다. 예를 들어 업무 자동화 앱이 이런 답을 받았다고 해봅시다.
 
@@ -34,4 +34,4 @@
 
 하지만 구조화 출력도 만능은 아닙니다. 모델이 항상 완벽한 JSON을 내보낸다고 믿기보다, 스키마 검증과 오류 처리까지 생각해야 합니다. 오래 가는 원리는 간단합니다. 앱이 후속 처리를 해야 한다면, 모델 답변도 앱이 읽기 쉬운 구조로 받아야 합니다.
 
-[이전 글](07_Memory_Thread_State.md) · [다음 글: LangSmith Trace](09_LangSmith_Trace.md)
+[이전 글](11_Memory_Thread_State.md) · [다음 글: LangSmith Trace](13_LangSmith_Trace.md)
